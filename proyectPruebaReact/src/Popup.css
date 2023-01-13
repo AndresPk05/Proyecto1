@@ -1,0 +1,35 @@
+.hide-PopUp{
+    display: none;
+}
+
+.container-PopUp{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 450px;
+    border: solid;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header button{
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.text-Popup{
+    overflow-wrap: break-word;
+    padding: 15px;
+}

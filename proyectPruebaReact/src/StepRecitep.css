@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.stepPair{
+    background-color: darkgray;
+}
+
+.stepInPair{
+    background-color: white;
+}
+
+.numberStep{
+    font-size: 90px;
+    margin: 0 30px;
+}
+
+.textStep{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.container svg{
+    width: 50px;
+    margin: 0 30px;
+}
